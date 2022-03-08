@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="style.css">
   <title>This is the title!</title>
 </head>
 <body>
   <header>
-    <h1>Class 1b Lab</h1>
+    <h1 style="background-color: rgb(238, 41, 41); text-align: center;" >Class 1b Lab</h1>
   </header>
   <main>
-    <p style="background-color: blueviolet;">What is your name?</p>
-    <p>What is your favorite color?</p>
-    <p>What is your favorite sport?</p>
-    <p>What is your favorite number?</p>
+    <p style="background-color: blueviolet; text-align: center;" >What is your name?</p>
+    <p style="background-color: rgb(226, 214, 43); text-align: center;" >What is your favorite color?</p>
+    <p style="background-color: rgb(43, 226, 104); text-align: center;" >What is your favorite sport?</p>
+    <p style="background-color: rgb(43, 76, 226); text-align: center;" >What is your favorite number?</p>
   </main>
   <footer>I am the footer....</footer>
   <script>
     let userName = prompt('What is your name?');
-    alert('Bonjour, ' userName + '!');
+    alert('Bonjour, ' + userName + '!');
     console.log('What is your name? ' + userName);
 
     let color = prompt('What is your favorite color?');
-    alert('Nice ' userName + '!' + 'You have good taste!');
+    alert('Nice ' + userName + '!' + 'You have good taste!');
     console.log('What is your favorite color? ' + color);
 
     let sport = prompt('What is your favorite sport?');
